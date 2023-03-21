@@ -1,0 +1,29 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    height: 100vh;
+    background-image: url("i.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#div1 {
+    width: 600px;
+    height: 200px;
+    padding: 10px;
+    border: 6px solid #c53a3a;
+    background-color: rgba(127, 255, 212, 0.418);
+  }
+ 
+  #div1:hover {
+   box-shadow: 3px 3px rgb(99, 91, 91), -1em 0 .4em rgb(87, 87, 82);
+  }
+h1{
+    font-size: 3rem;
+    font-weight: 900;
+    letter-spacing: 1px;
+    color: rgba(240, 255, 255, 0.849);
+}
